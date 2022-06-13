@@ -22,7 +22,7 @@ struct AddView: View {
                 TextField("Type something here...", text: $textFieldText)
                     .padding(.horizontal)
                     .frame(height: 56)
-                    .background(Color.gray.brightness(0.35))
+                    .background(Color(UIColor.secondarySystemBackground))
                 .cornerRadius(16)
                 
                 Button {
